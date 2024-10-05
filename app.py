@@ -53,14 +53,10 @@ def main():
         
         st.success(f'The Predicted value of Oil Viscosity% on {p4}/{p3}/{p2} is : {ViscosityPct}')
         
-        st.warning("""
-                   - **Note:** If the Oil Viscosity% is outside the specified ranges, it indicates a Problem (R).
-                   """) 
                    
         st.success(f'The Status of Oil Viscosity on {p4}/{p3}/{p2} will be : {status} ')
         
         st.info("""
-                   - C = Critical, R = Problem, Y = Warning, G = Normal
                    - Warning Range : -10% to +10%
                    - Danger Range : -30% to +30%
                    
