@@ -22,7 +22,7 @@ def main():
     st.markdown(html_temp, unsafe_allow_html=True)
     
     
-    model = joblib.load('OilViscosity1ModelNew_rf_100_40') 
+    model = joblib.load('OilViscosity1ModelNew_rf_100_40.joblib') 
     
     Eqmt = st.selectbox('Select Equipment Name you want to Predict for:' ,options =['UT006', 'UE007'])
     
